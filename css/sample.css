@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+/* navbar 수정 */
+header.head{
+  background-color: red !important;
+}/* 스크롤전 */
+.navbar-marketing.navbar-dark.navbar-scrolled{
+  background-color: teal !important;
+} /* 스크롤 후*/
+
+.page-header{background-image: url(../img/visual.jpg); padding-bottom: 300px;}
+.page-header-content{padding: 300px 0 50px !important;}
+
+/* typing Ani */
+.txt-rotate{color: red;}
+
+/* chart */
+.chart {
+  position: relative;
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.percent {
+  display: inline-block;
+  line-height: 110px;
+  z-index: 2;
+}
+.percent:after {
+  content: '%';
+  margin-left: 0.1em;
+  font-size: .8em;
+}
+
+.nav-item.active a{
+  color: red !important;
+}
+
+.video{background-image: url(../img/visual.jpg);}
+
+.my-profile{background-image: url(../img/busanit.jpg);}
+
+.my-profile .txt-box h4{font-size: 32px; color: #fff; margin-bottom: 15px;}
+.my-profile .txt-box p{font-size: 22px;}
+
+.img-wrap{margin-top: 15px;}
+.img-wrap img{width: 100%;}
+
+
+.lity-container{
+  max-width: 800px;
+  max-height: 800px;
+}
+.lity-close{
+  position: absolute;
+  color: red;
+  font-size: 50px;
+}
+.lity-close:hover{
+  color: #fff;
+  font-size: 50px;
+}
+@media (max-width: 991.98px){
+  .navbar-marketing.bg-transparent.navbar-dark {
+      background-color: red !important;
+  }
+  .navbar-marketing.navbar-dark.navbar-scrolled{
+    background-color: teal !important;
+  } /* 스크롤 후*/
+}
+
+
